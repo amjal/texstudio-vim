@@ -1629,6 +1629,7 @@ Then you can select a new shortcut by one of the following ways:
                   <string>Editor</string>
                  </property>
                  <layout class="QGridLayout">
+			 
                   <item row="13" column="0">
                    <widget class="QCheckBox" name="checkBoxRealTimeCheck">
                     <property name="sizePolicy">
@@ -1645,6 +1646,24 @@ Then you can select a new shortcut by one of the following ways:
                     </property>
                    </widget>
                   </item>
+
+                  <item row="14" column="0">
+                   <widget class="QCheckBox" name="checkBoxVimBinding">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                    <property name="text">
+                     <string>Vim key-bindings:</string>
+                    </property>
+                    <property name="checked">
+                     <bool>false</bool>
+                    </property>
+                   </widget>
+                  </item>
+
                   <item row="11" column="0">
                    <widget class="QLabel" name="label_33">
                     <property name="text">
@@ -4962,6 +4981,7 @@ Note: Changing this setting will only affect documents that are opened afterward
   <tabstop>comboBoxAutoIndent</tabstop>
   <tabstop>comboBoxReplaceQuotes</tabstop>
   <tabstop>checkBoxRealTimeCheck</tabstop>
+  <tabstop>checkBoxVimBinding</tabstop>
   <tabstop>checkBoxInlineSpellCheck</tabstop>
   <tabstop>checkBoxInlineGrammarCheck</tabstop>
   <tabstop>checkBoxInlineCitationCheck</tabstop>
